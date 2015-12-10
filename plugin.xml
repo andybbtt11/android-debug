@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="com.example.androidebug"
+        version="0.0.1">
+
+  <name>Android Debug</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <platform name="android">
+
+    <gap:config-file platform="android" parent="/manifest">
+      <application android:debuggable="true" />
+    </gap:config-file>
+  </platform>
+
+</plugin>
